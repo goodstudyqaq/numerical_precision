@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define real double
+#define real float
 
 __global__ void sum_atomic_kernel(const real* data, real* sum, int n) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;

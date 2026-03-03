@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     freopen("data.in", "w", stdout);
-    int n = 1000000;
+    int n = 10000000;
     cout << n << endl;
 
     double X = 1e5;
