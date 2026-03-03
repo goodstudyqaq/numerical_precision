@@ -11,3 +11,4 @@ gen_data: gen_data.cpp
 	$(CPU_CC) $(CPU_FLAGS) -o gen_data gen_data.cpp
 clean:
 	rm -f cpu_sum gpu_sum gen_data data.in
+all: gen_data cpu_sum gpu_sum
